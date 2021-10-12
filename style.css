@@ -1,0 +1,61 @@
+html {
+  background-color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  background: #002b65;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.bannerContainer {
+  background: url(img/Monica.jpg) repeat center center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.banner {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  background: #47012c;
+}
+
+.banner2 {
+  mix-blend-mode: difference;
+}
+.banner3 {
+  mix-blend-mode: darken;
+}
+
+.banner5 {
+  mix-blend-mode: soft-light;
+}
+
+.banner6 {
+  mix-blend-mode: color-dodge;
+}
+
+.banner7 {
+  mix-blend-mode: exclusion;
+}
+.banner8 {
+  mix-blend-mode: hue;
+}
+
+.banner12 {
+  mix-blend-mode: overlay;
+}
